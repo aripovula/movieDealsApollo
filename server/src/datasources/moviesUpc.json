@@ -1,0 +1,407 @@
+{
+    "results": [
+        {
+            "popularity": 175.287,
+            "vote_count": 156,
+            "video": false,
+            "poster_path": "\/zBhv8rsLOfpFW2M5b6wW78Uoojs.jpg",
+            "id": 540901,
+            "adult": false,
+            "backdrop_path": "\/jTab4cf4X1dJJVS4F8UOGuesvPd.jpg",
+            "original_language": "en",
+            "original_title": "Hustlers",
+            "genre_ids": [
+                35,
+                80,
+                18,
+                36
+            ],
+            "title": "Hustlers",
+            "vote_average": 6.4,
+            "overview": "A crew of savvy former strip club employees band together to turn the tables on their Wall Street clients.",
+            "release_date": "2019-09-13"
+        },
+        {
+            "popularity": 145.501,
+            "vote_count": 2617,
+            "video": false,
+            "poster_path": "\/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+            "id": 458156,
+            "adult": false,
+            "backdrop_path": "\/vVpEOvdxVBP2aV166j5Xlvb5Cdc.jpg",
+            "original_language": "en",
+            "original_title": "John Wick: Chapter 3 – Parabellum",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "title": "John Wick: Chapter 3 – Parabellum",
+            "vote_average": 7.1,
+            "overview": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+            "release_date": "2019-05-17"
+        },
+        {
+            "popularity": 89.235,
+            "vote_count": 48,
+            "video": false,
+            "poster_path": "\/lbGzEyESjANpOeD48aROlc3X7aa.jpg",
+            "id": 475557,
+            "adult": false,
+            "backdrop_path": "\/hO7KbdvGOtDdeg0W4Y5nKEHeDDh.jpg",
+            "original_language": "en",
+            "original_title": "Joker",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "title": "Joker",
+            "vote_average": 9.5,
+            "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+            "release_date": "2019-10-04"
+        },
+        {
+            "popularity": 62.005,
+            "vote_count": 18,
+            "video": false,
+            "poster_path": "\/4E2lyUGLEr3yH4q6kJxPkQUhX7n.jpg",
+            "id": 568012,
+            "adult": false,
+            "backdrop_path": "\/iGnCzXEx0cFlUbpyAMeHwHWhPhx.jpg",
+            "original_language": "ja",
+            "original_title": "ワンピーススタンピード",
+            "genre_ids": [
+                28,
+                12,
+                16
+            ],
+            "title": "One Piece: Stampede",
+            "vote_average": 8.8,
+            "overview": "One Piece: Stampede is a stand-alone film that celebrates the anime's 20th Anniversary and takes place outside the canon of the \"One Piece\" TV series. Monkey D. Luffy and his Straw Hat pirate crew are invited to a massive Pirate Festival that brings many of the most iconic characters from throughout the franchise to participate in competition with the Straw Hats to find Roger's treasure. It also pits the Straw Hats against a new enemy named Bullet, a former member of Roger's crew.",
+            "release_date": "2019-10-24"
+        },
+        {
+            "popularity": 39.361,
+            "vote_count": 21,
+            "video": false,
+            "poster_path": "\/iK0Q7VWxHsXU1uMzpkf3VjAd6yE.jpg",
+            "id": 431580,
+            "adult": false,
+            "backdrop_path": "\/tLCDKsXo6D84IVFanoElosSEKdp.jpg",
+            "original_language": "en",
+            "original_title": "Abominable",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                10751
+            ],
+            "title": "Abominable",
+            "vote_average": 7.6,
+            "overview": "Trekking the 3000-mile journey from Shanghai to the Himalayan snowscapes, a group of misfits encounter a young Yeti named Everest, and they set off to reunite the magical creature with his family on the mountain of his namesake.",
+            "release_date": "2019-09-29"
+        },
+        {
+            "popularity": 35.156,
+            "vote_count": 720,
+            "video": false,
+            "poster_path": "\/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+            "id": 496243,
+            "adult": false,
+            "backdrop_path": "\/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+            "original_language": "ko",
+            "original_title": "기생충",
+            "genre_ids": [
+                35,
+                18,
+                53
+            ],
+            "title": "Parasite",
+            "vote_average": 8.5,
+            "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+            "release_date": "2019-10-11"
+        },
+        {
+            "popularity": 30.104,
+            "vote_count": 177,
+            "video": false,
+            "poster_path": "\/vOl6shtL0wknjaIs6JdKCpcHvg8.jpg",
+            "id": 567609,
+            "adult": false,
+            "backdrop_path": "\/j8uPZSPjKYzHlN2B4NhPQVWWZ5x.jpg",
+            "original_language": "en",
+            "original_title": "Ready or Not",
+            "genre_ids": [
+                35,
+                27,
+                9648,
+                53
+            ],
+            "title": "Ready or Not",
+            "vote_average": 7,
+            "overview": "A bride's wedding night takes a sinister turn when her eccentric new in-laws force her to take part in a terrifying game.",
+            "release_date": "2019-08-21"
+        },
+        {
+            "popularity": 27.754,
+            "vote_count": 228,
+            "video": false,
+            "poster_path": "\/jIthqo2tQmW8TFN1fYpF8FmVL0o.jpg",
+            "id": 521777,
+            "adult": false,
+            "backdrop_path": "\/6Xsz9KHQmCcIcj3CoWQq5eLtVoT.jpg",
+            "original_language": "en",
+            "original_title": "Good Boys",
+            "genre_ids": [
+                35
+            ],
+            "title": "Good Boys",
+            "vote_average": 6.5,
+            "overview": "A group of young boys on the cusp of becoming teenagers embark on an epic quest to fix their broken drone before their parents get home.",
+            "release_date": "2019-08-16"
+        },
+        {
+            "popularity": 33.804,
+            "vote_count": 543,
+            "video": false,
+            "poster_path": "\/m2ttWZ8rMRwIMT7zA48Jo6mTkDS.jpg",
+            "id": 459992,
+            "adult": false,
+            "backdrop_path": "\/88r25ghJzVYKq0vaOApqEOZsQlD.jpg",
+            "original_language": "en",
+            "original_title": "Long Shot",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "title": "Long Shot",
+            "vote_average": 6.7,
+            "overview": "Fred Flarsky is a gifted and free-spirited journalist who has a knack for getting into trouble. Charlotte Field is one of the most influential women in the world -- a smart, sophisticated and accomplished politician. When Fred unexpectedly runs into Charlotte, he soon realizes that she was his former baby sitter and childhood crush. When Charlotte decides to make a run for the presidency, she impulsively hires Fred as her speechwriter -- much to the dismay of her trusted advisers.",
+            "release_date": "2019-05-03"
+        },
+        {
+            "popularity": 27.281,
+            "vote_count": 135,
+            "video": false,
+            "poster_path": "\/ebe8hJRCwdflNQbUjRrfmqtUiNi.jpg",
+            "id": 454640,
+            "adult": false,
+            "backdrop_path": "\/k7sE3loFwuU2mqf7FbZBeE3rjBa.jpg",
+            "original_language": "en",
+            "original_title": "The Angry Birds Movie 2",
+            "genre_ids": [
+                28,
+                12,
+                16,
+                35,
+                10751
+            ],
+            "title": "The Angry Birds Movie 2",
+            "vote_average": 6.2,
+            "overview": "Red, Chuck, Bomb and the rest of their feathered friends are surprised when a green pig suggests that they put aside their differences and unite to fight a common threat. Aggressive birds from an island covered in ice are planning to use an elaborate weapon to destroy the fowl and swine.",
+            "release_date": "2019-08-14"
+        },
+        {
+            "popularity": 20.622,
+            "vote_count": 372,
+            "video": false,
+            "poster_path": "\/cMlueArJXXwZbeLpb4NhC3pxmBk.jpg",
+            "id": 519010,
+            "adult": false,
+            "backdrop_path": "\/lZBG6PZDE79ERwhvZ2nmj7IiHTA.jpg",
+            "original_language": "es",
+            "original_title": "Dolor y gloria",
+            "genre_ids": [
+                18
+            ],
+            "title": "Pain and Glory",
+            "vote_average": 7.6,
+            "overview": "Salvador Mallo, a filmmaker in the twilight of his career, remembers his life: his mother, his lovers, the actors he worked with. The sixties in a small village in Valencia, the eighties in Madrid, the present, when he feels an immeasurable emptiness, facing his mortality, the incapability of continuing filming, the impossibility of separating creation from his own life. The need of narrating his past can be his salvation.",
+            "release_date": "2019-10-04"
+        },
+        {
+            "popularity": 22.864,
+            "vote_count": 152,
+            "video": false,
+            "poster_path": "\/xvYCZ740XvngXK0FNeSNVTJJJ5v.jpg",
+            "id": 499701,
+            "adult": false,
+            "backdrop_path": "\/61sbyO47yIpsMFyLhY1MWcqjg1Q.jpg",
+            "original_language": "en",
+            "original_title": "Dora and the Lost City of Gold",
+            "genre_ids": [
+                12,
+                35,
+                10751
+            ],
+            "title": "Dora and the Lost City of Gold",
+            "vote_average": 6.3,
+            "overview": "Dora, a girl who has spent most of her life exploring the jungle with her parents, now must navigate her most dangerous adventure yet: high school. Always the explorer, Dora quickly finds herself leading Boots (her best friend, a monkey), Diego, and a rag tag group of teens on an adventure to save her parents and solve the impossible mystery behind a lost Inca civilization.",
+            "release_date": "2019-08-09"
+        },
+        {
+            "popularity": 24.382,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "\/vloNTScJ3w7jwNwtNGoG8DbTThv.jpg",
+            "id": 420809,
+            "adult": false,
+            "backdrop_path": "\/q9mF0HhnKT5deOIRAQSFjhLC8c1.jpg",
+            "original_language": "en",
+            "original_title": "Maleficent: Mistress of Evil",
+            "genre_ids": [
+                12,
+                14,
+                10751
+            ],
+            "title": "Maleficent: Mistress of Evil",
+            "vote_average": 0,
+            "overview": "Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces at play.",
+            "release_date": "2019-10-18"
+        },
+        {
+            "popularity": 36.677,
+            "vote_count": 1,
+            "video": false,
+            "poster_path": "\/5hIORX639YfDlhXfWJTac6bqWlo.jpg",
+            "id": 491283,
+            "adult": false,
+            "backdrop_path": "\/99BHWZowADkJ0yKKGFZs4NfsX8q.jpg",
+            "original_language": "en",
+            "original_title": "Judy",
+            "genre_ids": [
+                18,
+                36,
+                10749
+            ],
+            "title": "Judy",
+            "vote_average": 0,
+            "overview": "Legendary performer Judy Garland arrives in London in the winter of 1968 to perform a series of sold-out concerts.",
+            "release_date": "2019-09-27"
+        },
+        {
+            "popularity": 24.17,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "\/uTALxjQU8e1lhmNjP9nnJ3t2pRU.jpg",
+            "id": 453405,
+            "adult": false,
+            "backdrop_path": "\/hZJLBaTca4ZBsogOOmr8dR7aO5L.jpg",
+            "original_language": "en",
+            "original_title": "Gemini Man",
+            "genre_ids": [
+                28,
+                18,
+                878,
+                53
+            ],
+            "title": "Gemini Man",
+            "vote_average": 0,
+            "overview": "Henry Brogen, an aging assassin tries to get out of the business but finds himself in the ultimate battle: fighting his own clone who is 25 years younger than him and at the peak of his abilities.",
+            "release_date": "2019-10-11"
+        },
+        {
+            "popularity": 25.248,
+            "vote_count": 1,
+            "video": false,
+            "poster_path": "\/p08FoXVFgcRm5QZBaGj0VKa2W2Y.jpg",
+            "id": 422803,
+            "adult": false,
+            "backdrop_path": "\/AgYlP6g4vrNn1sVsAIvflW3TfJU.jpg",
+            "original_language": "en",
+            "original_title": "A Shaun the Sheep Movie: Farmageddon",
+            "genre_ids": [
+                16,
+                35,
+                10751
+            ],
+            "title": "A Shaun the Sheep Movie: Farmageddon",
+            "vote_average": 0,
+            "overview": "The follow-up to the hugely-successful and Oscar-nominated 2015 film.",
+            "release_date": "2019-09-26"
+        },
+        {
+            "popularity": 18.596,
+            "vote_count": 36,
+            "video": false,
+            "poster_path": "\/uNWk5HZfVBHpARcV1z9cwUAbtpF.jpg",
+            "id": 537739,
+            "adult": false,
+            "backdrop_path": "\/sQBVmI8jra82O6dVswBQgmNI0lq.jpg",
+            "original_language": "en",
+            "original_title": "Can You Keep a Secret?",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "title": "Can You Keep a Secret?",
+            "vote_average": 6.2,
+            "overview": "Emma Corrigan, a girl with a few secrets on a turbulent plane ride, thinks she’s about to die, Emma spills them all to the handsome stranger sitting next to her. At least, she thought he was a stranger. But then, her company’s young and elusive CEO, arrives at the office. It’s him. And he knows every single humiliating detail about Emma.",
+            "release_date": "2019-09-13"
+        },
+        {
+            "popularity": 22.483,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "\/dUwpZl6QJUFoqkhEcu10Hzbd5Bn.jpg",
+            "id": 621268,
+            "adult": false,
+            "backdrop_path": "\/kE1DrWfa82iqnWahWZDAU2wEfIM.jpg",
+            "original_language": "es",
+            "original_title": "Así habló el cambista",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "title": "The Moneychanger",
+            "vote_average": 0,
+            "overview": "Set largely in Montevideo, The Moneychanger stars Daniel Hendler as Humberto Brause, who takes advantage of Uruguay’s poor economy by specializing in offshore money laundering. Spanning the fifties to the seventies, the film follows Humberto as he gets increasingly in over his head with multiple shady book-cooking schemes throughout South America, leading to an ultimate life-or-death decision.",
+            "release_date": "2019-09-29"
+        },
+        {
+            "popularity": 21.318,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "\/hI44Wzrg6N8vxmct5OvZkGvaV0e.jpg",
+            "id": 624494,
+            "adult": false,
+            "backdrop_path": "\/bY0VlBmuNTGemUhgCLmeaBxlwxC.jpg",
+            "original_language": "cs",
+            "original_title": "Jiří Suchý - Lehce s životem se prát",
+            "genre_ids": [
+                99
+            ],
+            "title": "Jiří Suchý - Lehce s životem se prát",
+            "vote_average": 0,
+            "overview": "",
+            "release_date": "2019-09-26"
+        },
+        {
+            "popularity": 19.718,
+            "vote_count": 11,
+            "video": false,
+            "poster_path": "\/fxHchovLxOnH65Eel3fAHr9i4Qi.jpg",
+            "id": 487616,
+            "adult": false,
+            "backdrop_path": "\/r3LHZUzgQg0SvaaaDcubsIgTtK9.jpg",
+            "original_language": "fr",
+            "original_title": "Curiosa",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "title": "Curiosa",
+            "vote_average": 6.7,
+            "overview": "A passionate love story set against a backdrop of sexual freedom, loosely based on the relationship between 19th century authors Pierre Louÿs and Marie de Régnier",
+            "release_date": "2019-04-03"
+        }
+    ],
+    "page": 1,
+    "total_results": 330,
+    "dates": {
+        "maximum": "2019-10-22",
+        "minimum": "2019-10-03"
+    },
+    "total_pages": 17
+}
