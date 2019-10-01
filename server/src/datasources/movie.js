@@ -27,21 +27,17 @@ class MovieAPI extends RESTDataSource {
 
   // leaving this inside the class to make the class easier to test
   movieReducer(movie) {
-    console.log('CCC genre - ', movie.genres[0]);
+    // console.log('CCC genre - ', movie.genres[0]);
     console.log('BBB movie - ', movie);
     return {
-      id: movie.imdb_id || 0,
-      cursor: `${movie.release_date}`,
+      id: movie.id || 0,
+      cursor: movie.id,
       name: movie.title,
       genre: {
-        id: movie.genres && movie.genres[0].id,
+        id: movie.genres && movie.genres.map(item => item['id']).toString(),
         name: movie.genres && movie.genres.map(item => item['name']).toString()
         ,
       },
-      // genre: {
-      //   id: movie.genres && movie.genres[0].id,
-      //   name: movie.genres && movie.genres[0].name,
-      // },
       financialData: {
         revenue: movie.revenue,
         budget: movie.budget,
@@ -50,13 +46,44 @@ class MovieAPI extends RESTDataSource {
     };
   }
 
-  async getNowPlayingMovies() {
-    const response = await this.get(`now_playing?api_key=${process.env.TMD_API_KEY}&language=en-US&page=1`);
-
-    // transform the raw movies to a more friendly
-    return Array.isArray(response)
-      ? response.map(movie => this.movieReducer(movie)) : [];
+  moviesReducer(movie) {
+    // console.log('CCC genre - ', movie.genres[0]);
+    // console.log('BBB2 movie - ', movie);
+    return {
+      id: movie.id.toString() || '0',
+      cursor: movie.id,
+      name: movie.title,
+      genre: {
+        id: movie.genre_ids.toString(),
+        name: null
+        ,
+      },
+      financialData: {
+        revenue: null,
+        budget: null,
+      },
+      isAdult: movie.adult
+    };
   }
+
+  // https://api.themoviedb.org/3/movie/now_playing?api_key=${process.env.TMD_API_KEY}&language=en-US&page=10
+
+  async getNowPlayingMovies() {
+    console.log('in getNowPlayingMovies');
+    // const response = await this.get(`now_playing?api_key=${process.env.TMD_API_KEY}&language=en-US&page=1`);
+    const response = await this.get( `/now_playing?api_key=${process.env.TMD_API_KEY}&language=en-US&page=1`);
+    // console.log('response - ', response.results[0]);
+    // transform the raw movies to a more friendly
+    const retVal = Array.isArray(response.results)
+    // return Array.isArray(response.results)
+      // ? response.results.map(movie => {console.log('movieABC-', movie, ' reduced-', this.moviesReducer(movie)); this.moviesReducer(movie)}) : [];
+      ? response.results.map(movie => this.moviesReducer(movie)) : [];
+      // console.log('retVal - ', retVal);
+      
+      return retVal;
+  }
+
+  // "https://api.themoviedb.org/3/movie/552?api_key=KEY",
 
   async getMovieById({ movieId }) {
     console.log('process.env.TMD_API_KEY = ', process.env.TMD_API_KEY);

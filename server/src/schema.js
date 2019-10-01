@@ -2,12 +2,16 @@ const { gql } = require('apollo-server');
 
 const typeDefs = gql`
   type Query {
-    movies(
-      pageSize: Int
-      after: String
-    ): MovieConnection!
+    movies: [Movie!]
     movie(id: ID!): Movie
     me: User
+    moviesPg(
+      pageSize: Int
+      """
+      If you add a cursor here, it will only return results _after_ this cursor
+      """
+      after: String
+    ): MovieConnection!
   }
 
   type Mutation {
@@ -34,11 +38,11 @@ const typeDefs = gql`
   type MovieConnection {
     cursor: String!
     hasMore: Boolean!
-    movies: [Movie]!
+    movies: [Movie]
   }
 
   type Movie {
-    id: ID!
+    id: ID
     name: String
     genre: Genre
     financialData: FinancialData
