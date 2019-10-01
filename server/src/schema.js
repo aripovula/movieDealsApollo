@@ -47,6 +47,7 @@ const typeDefs = gql`
     genre: Genre
     financialData: FinancialData
     isAdult: Boolean!
+    isBooked: Boolean!
   }
 
   type FinancialData {

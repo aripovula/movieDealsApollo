@@ -31,7 +31,7 @@ class MovieAPI extends RESTDataSource {
     console.log('BBB movie - ', movie);
     return {
       id: movie.id || 0,
-      cursor: movie.id,
+      cursor: movie.id.toString(),
       name: movie.title,
       genre: {
         id: movie.genres && movie.genres.map(item => item['id']).toString(),
@@ -51,7 +51,7 @@ class MovieAPI extends RESTDataSource {
     // console.log('BBB2 movie - ', movie);
     return {
       id: movie.id.toString() || '0',
-      cursor: movie.id,
+      cursor: movie.id.toString(),
       name: movie.title,
       genre: {
         id: movie.genre_ids.toString(),
