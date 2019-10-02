@@ -31,33 +31,38 @@ class UserAPI extends DataSource {
     return users && users[0] ? users[0] : null;
   }
 
-  async bookTrips({ launchIds }) {
-    const userId = this.context.user.id;
+  async bookTrips({ movieIds }) {
+    console.log('movieIds 33 - ', movieIds);
+    console.log('movieIds 331 - ', this.context);
+    // console.log('movieIds 332 - ', this.context.user);
+    
+    const userId = 1; // this.context.user.id;
+    console.log('userId 44 - ', userId);
     if (!userId) return;
 
     let results = [];
 
-    // for each launch id, try to book the trip and add it to the results array
+    // for each movie id, try to book the trip and add it to the results array
     // if successful
-    for (const launchId of launchIds) {
-      const res = await this.bookTrip({ launchId });
+    for (const movieId of movieIds) {
+      const res = await this.bookTrip({ movieId });
       if (res) results.push(res);
     }
 
     return results;
   }
 
-  async bookTrip({ launchId }) {
-    const userId = this.context.user.id;
+  async bookTrip({ movieId }) {
+    const userId = 1; // this.context.user.id;
     const res = await this.store.trips.findOrCreate({
-      where: { userId, launchId },
+      where: { userId, movieId },
     });
     return res && res.length ? res[0].get() : false;
   }
 
-  async cancelTrip({ launchId }) {
+  async cancelTrip({ movieId }) {
     const userId = this.context.user.id;
-    return !!this.store.trips.destroy({ where: { userId, launchId } });
+    return !!this.store.trips.destroy({ where: { userId, movieId } });
   }
 
   async getLaunchIdsByUser() {
@@ -66,15 +71,15 @@ class UserAPI extends DataSource {
       where: { userId },
     });
     return found && found.length
-      ? found.map(l => l.dataValues.launchId).filter(l => !!l)
+      ? found.map(l => l.dataValues.movieId).filter(l => !!l)
       : [];
   }
 
-  async isBookedOnLaunch({ launchId }) {
+  async isBookedOnLaunch({ movieId }) {
     if (!this.context || !this.context.user) return false;
     const userId = this.context.user.id;
     const found = await this.store.trips.findAll({
-      where: { userId, launchId },
+      where: { userId, movieId },
     });
     return found && found.length > 0;
   }

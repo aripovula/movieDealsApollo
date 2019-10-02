@@ -34,7 +34,9 @@ module.exports = {
     },
     Mutation: {
       bookTrips: async (_, { movieIds }, { dataSources }) => {
+        console.log('movieIds 11 - ', movieIds);
         const results = await dataSources.userAPI.bookTrips({ movieIds });
+        console.log('results 22 - ', results);
         const movies = await dataSources.movieAPI.getMoviesByIds({
           movieIds,
         });
@@ -68,7 +70,7 @@ module.exports = {
       },
       login: async (_, { email }, { dataSources }) => {
         const user = await dataSources.userAPI.findOrCreateUser({ email });
-        if (user) return new Buffer(email).toString('base64');
+        if (user) return new Buffer.from(email).toString('base64');
       },
     },
     Movie: {
